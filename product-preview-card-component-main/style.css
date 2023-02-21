@@ -1,0 +1,46 @@
+body{
+font-family: 'Koh Santepheap', cursive;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Prompt', sans-serif;
+}
+.background{
+    background-color: burlywood;
+    /* display: flex;
+    justify-content: center; */
+    padding-top: 5%;
+}
+.card{
+    width: 700px;
+    height: 450px;
+    border-radius:10px;
+    margin: auto;  
+}
+.img{
+    width: 350px;
+    height: 450px;
+}
+.info{
+    display: block;
+}
+.info > .perfume{
+    
+    letter-spacing: 5px;
+}
+.info>h1{
+    color: rgb(3, 48, 3);
+
+}
+
+.info > button{
+    border: 1px solid white ;
+    border-radius: 5px;
+    color: white ;
+    background-color: rgb(3, 48, 3);
+    text-align: center;
+   padding: 10px;
+}
+.attribution{
+    text-align: center;
+    padding-top: 10px;
+}
